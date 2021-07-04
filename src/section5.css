@@ -15,7 +15,7 @@
   margin-top: 30px;
   /* margin-bottom: 200px; */
   /* padding: 16px 16px 16px 63px; */
-  background-image: url("D:/PRV/web practice/React - landing page/berger-landingpage/src/img/group5/Burger-group5.png");
+  background-image: url("./img/group5/Burger-group5.png");
   display: flex;
   flex-direction: column;
 }
