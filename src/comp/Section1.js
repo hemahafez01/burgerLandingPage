@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import logo from 'D:/PRV/web practice/React - landing page/berger-landingpage/src/img/logo.png';
-import scooter from 'D:/PRV/web practice/React - landing page/berger-landingpage/src/img/scooter.png';
+import logo from '../img/logo.png';
+import scooter from '../img/scooter.png';
 
 function Section1() {
     return (
