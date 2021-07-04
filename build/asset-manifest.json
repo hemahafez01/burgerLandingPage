@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de74c03a.chunk.css",
+    "main.js": "/static/js/main.0066d559.chunk.js",
+    "main.js.map": "/static/js/main.0066d559.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1d330f4c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1d330f4c.js.map",
+    "static/js/2.e45fe0d3.chunk.js": "/static/js/2.e45fe0d3.chunk.js",
+    "static/js/2.e45fe0d3.chunk.js.map": "/static/js/2.e45fe0d3.chunk.js.map",
+    "static/js/3.49fcaed3.chunk.js": "/static/js/3.49fcaed3.chunk.js",
+    "static/js/3.49fcaed3.chunk.js.map": "/static/js/3.49fcaed3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.de74c03a.chunk.css.map": "/static/css/main.de74c03a.chunk.css.map",
+    "static/js/2.e45fe0d3.chunk.js.LICENSE.txt": "/static/js/2.e45fe0d3.chunk.js.LICENSE.txt",
+    "static/media/section6.css": "/static/media/sec6bckg.da89c1cf.png",
+    "static/media/section2.css": "/static/media/Image burger3.15fc259a.png",
+    "static/media/Burger Image.04b7989e.png": "/static/media/Burger Image.04b7989e.png",
+    "static/media/section5.css": "/static/media/Burger-group5.0ae94d8a.png",
+    "static/media/burger1.9b2aa8b5.png": "/static/media/burger1.9b2aa8b5.png",
+    "static/media/burger2.5024a293.png": "/static/media/burger2.5024a293.png",
+    "static/media/scooter.56ba2122.png": "/static/media/scooter.56ba2122.png",
+    "static/media/section1.css": "/static/media/sec1bckg.e06cb400.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d330f4c.js",
+    "static/js/2.e45fe0d3.chunk.js",
+    "static/css/main.de74c03a.chunk.css",
+    "static/js/main.0066d559.chunk.js"
+  ]
+}
