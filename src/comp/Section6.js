@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import logo from 'D:/PRV/web practice/React - landing page/berger-landingpage/src/img/group6/logo.png';
-import insta from 'D:/PRV/web practice/React - landing page/berger-landingpage/src/img/group6/Instagram.png';
-import Facebook from 'D:/PRV/web practice/React - landing page/berger-landingpage/src/img/group6/Facebook.png';
-import Twitter from 'D:/PRV/web practice/React - landing page/berger-landingpage/src/img/group6/Twitter.png';
-import WhatsApp from 'D:/PRV/web practice/React - landing page/berger-landingpage/src/img/group6/WhatsApp.png';
-import location from 'D:/PRV/web practice/React - landing page/berger-landingpage/src/img/group6/Location Icon.png';
-import EMail from 'D:/PRV/web practice/React - landing page/berger-landingpage/src/img/group6/Email.png';
+import logo from '../img/group6/logo.png';
+import insta from '../img/group6/Instagram.png';
+import Facebook from '../img/group6/Facebook.png';
+import Twitter from '../img/group6/Twitter.png';
+import WhatsApp from '../img/group6/WhatsApp.png';
+import location from '../img/group6/Location Icon.png';
+import EMail from '../img/group6/Email.png';
 
 function Section6() {
     return (
