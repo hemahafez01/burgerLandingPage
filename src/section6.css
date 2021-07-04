@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+  font-family: Alfa Slab One;
+  src: url('./font/AlfaSlabOne-Regular.ttf');
+} 
+@font-face {
+  font-family: Bebas Neue;
+  src: url('./font/BebasNeue-Regular.ttf');
+}
+
+.section6{
+  width: 1325px;
+  height: 520px;
+  margin-top: 0px;
+  margin-right: 57px;
+  margin-bottom: 00px;
+  margin-left: 57px;
+  /* padding: 16px 16px 16px 63px; */
+  background-image: url("D:/PRV/web practice/React - landing page/berger-landingpage/src/img/group6/sec6bckg.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+.left>p{
+  color: #fff;
+  width: 450px;
+}
+.right6{
+  width: 315px;
+  margin-right: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.right6>div:nth-child(1){
+  margin-top: 150px;
+}
+.right6>div{
+  margin-top: 15px;
+}
+.right6>div>p, .right>div>img{
+display: inline;
+}
+
+.right6>div>img{
+  padding-right: 30px;
+}
+.right6>div>p{
+  color: #fff;
+  font-weight: 400;
+}
+.hash{
+  margin-right: 30px;
+  margin-left: 42px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hash>p{
+  color: #fff;
+}
+.hash>div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hash>div>img{
+width: 30px;
+height: 30px;
+padding: 5px;
+}

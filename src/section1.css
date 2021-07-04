@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+  font-family: Alfa Slab One;
+  src: url('./font/AlfaSlabOne-Regular.ttf');
+} 
+@font-face {
+  font-family: Bebas Neue;
+  src: url('./font/BebasNeue-Regular.ttf');
+}
+
+.section1{
+  margin: auto;
+  min-width: 1440px;
+  max-width: 1440px;
+  min-height: 825px;
+  max-height: 825px;
+  background-image: url("./img/sec1bckg.png");
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 55px;
+}
+.logo>img{
+  min-width: 263px;
+  min-height: 58px;
+  margin: 57px 53px auto;
+}
+.delivery{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.delivery>img{
+  max-width: 41px;
+  max-height: 33px;
+  display: inline;
+}
+.delivery>span{
+  display: inline;
+  font-size: 17px;
+  line-height: 71px;
+  color: #3d2514;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: right;
+}
+.nav{
+  font-family: 'Roboto', sans-serif;
+  width: 478px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav>a{
+  text-decoration: none;
+  color: black;
+}
+.section-main{
+  height: 600px;
+  margin-left: 61px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.dashborder{
+  margin: 0;
+  width: 405px;
+  height: 50px;
+  border: 2px dashed #3d2514;
+  font-size: 22px;
+  line-height: 33px;
+  color: #3d2514;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+  font-stretch: expanded;
+  text-align: center;
+  line-height: 50px;
+}
+h2{
+  margin: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 114px;
+  line-height: 62px;
+  color: #3d2514;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+  filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+h4{
+  margin: 0;
+  font-size: 56px;
+line-height: 62px;
+color: #3d2514;
+font-weight: 400;
+font-family: "Alfa Slab One";
+filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}

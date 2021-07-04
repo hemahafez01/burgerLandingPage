@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+  font-family: Alfa Slab One;
+  src: url('./font/AlfaSlabOne-Regular.ttf');
+} 
+@font-face {
+  font-family: Bebas Neue;
+  src: url('./font/BebasNeue-Regular.ttf');
+}
+
+.section2{
+  /* width: 1440px; */
+  /* height: 540px; */
+  padding-left: 110px;
+  padding-top:  80px;
+  padding-right: 110px;
+  padding-bottom:  80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.single{
+  background-image: url("./img/group2/Burger Image 1.png");
+  width: 596px;
+  height: 420px;
+}
+.single>h5, .lower>h5, .upper>h5{
+  margin-left: 24px;
+  margin-top: 10px;
+  font-size: 25px;
+  line-height: 38px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+}
+.single>p, .lower>p, .upper>p{
+  margin-left: 24px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 38px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Bebas Neue";
+}
+.double{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.upper{
+  background-image: url("./img/group2/Image\ burger2.png");
+  width: 596px;
+  height: 192px;
+}
+.lower{
+  background-image: url("./img/group2/Image\ burger3.png");
+  width: 596px;
+  height: 192px;
+}
