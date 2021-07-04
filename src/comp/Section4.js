@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import burger1 from 'D:/PRV/web practice/React - landing page/berger-landingpage/src/img/group4/Burger Image.png';
+import burger1 from '../img/group4/Burger Image.png';
 // import burger2 from 'D:/PRV/web practice/React - landing page/berger-landingpage/src/img/group3/burger2.png';
 
 function Section4() {
