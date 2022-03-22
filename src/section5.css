@@ -9,9 +9,11 @@
   src: url('./font/BebasNeue-Regular.ttf');
 }
 
+@media(orientation: landscape){
+
 .section5{
-  /* width: 1294px; */
-  height: 700px;
+  width: 98vw;
+  height: 95vh;
   margin-top: 30px;
   /* margin-bottom: 200px; */
   /* padding: 16px 16px 16px 63px; */
@@ -36,8 +38,8 @@
   font-family: "Alfa Slab One";
 }
 .form{
-  width: 790px;
-  height: 250px;
+  width: 120vh;
+  height: 40vh;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -55,8 +57,8 @@
   justify-content: space-between;
 }
 input{
-  width: 379px;
-height: 65px;
+  width: 57vh;
+height: 10vh ;
 border-radius: 5px;
 background-color: rgba(235,174,76,0);
 border: 1px solid #bebebe;
@@ -65,8 +67,8 @@ border: 1px solid #bebebe;
   /* content: attr(placeholder); */
 /* } */
 .form-btn{
-  width: 379px;
-height: 65px;
+  width: 57vh;
+height: 10vh;
 border-radius: 5px;
 background-color: #bf2222;
 font-size: 21px;
@@ -75,3 +77,75 @@ color: #ffffff;
 font-weight: 400;
 font-family: "Alfa Slab One";
 }
+}
+
+@media(orientation: portrait){
+
+  .section5{
+    width: 98vw;
+    height: 95vh;
+    margin-top: 30px;
+    /* margin-bottom: 200px; */
+    /* padding: 16px 16px 16px 63px; */
+    background-image: url("./img/group5/Burger-group5.png");
+    display: flex;
+    flex-direction: column;
+  }
+  .mid>h5{
+    font-size: 29px;
+    letter-spacing: 2px;
+    line-height: 46px;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+  }
+  .mid>h3{
+    font-size: 50px;
+    letter-spacing: 3px;
+    line-height: 46px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+  }
+  .form{
+    /* width: 120vh; */
+    /* height: 40vh; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 21px;
+    line-height: 46px;
+    color: #3d3d3d;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+  }
+  .form>div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  input{
+    width: 57vh;
+  height: 10vh ;
+  margin-bottom: 3vh;
+  border-radius: 5px;
+  background-color: rgba(235,174,76,0);
+  border: 1px solid #bebebe;
+  }
+  /* input[type="date"]:not(.has-value):before{ */
+    /* content: attr(placeholder); */
+  /* } */
+  .form-btn{
+    width: 57vh;
+  height: 10vh;
+  border-radius: 5px;
+  background-color: #bf2222;
+  font-size: 21px;
+  line-height: 46px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+  }
+  }

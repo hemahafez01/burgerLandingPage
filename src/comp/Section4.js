@@ -15,7 +15,7 @@ function Section4() {
                 <div></div>
               </div>
             </div>
-            <div>
+            <div className='right4'>
               <img src={burger1} alt="burger"/>
             </div>
           </div>

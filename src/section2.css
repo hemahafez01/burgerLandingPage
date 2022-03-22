@@ -9,25 +9,29 @@
   src: url('./font/BebasNeue-Regular.ttf');
 }
 
+@media(orientation: landscape){
+
 .section2{
-  /* width: 1440px; */
-  /* height: 540px; */
-  padding-left: 110px;
-  padding-top:  80px;
-  padding-right: 110px;
-  padding-bottom:  80px;
+  width: 98vw;
+  /* height: 95vh; */
+  /* padding-left: 5vh; */
+  padding-top:  10vh;
+  /* padding-right: 5vh; */
+  /* padding-bottom:  80px; */
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .single{
-  background-image: url("./img/group2/Burger Image 1.png");
-  width: 596px;
-  height: 420px;
+  background-image: url("./img/group2/Burger1.png");
+  width: 40%;
+  height: 60vh;
+  padding-left: 3vh;
+  border-radius: 2vh;
 }
 .single>h5, .lower>h5, .upper>h5{
-  margin-left: 24px;
-  margin-top: 10px;
+  /* margin-left: 24px; */
+  /* margin-top: 10px; */
   font-size: 25px;
   line-height: 38px;
   color: #ffffff;
@@ -35,9 +39,9 @@
   font-family: "Bebas Neue";
 }
 .single>p, .lower>p, .upper>p{
-  margin-left: 24px;
-  margin-top: 30px;
-  margin-bottom: 0;
+  /* margin-left: 24px; */
+  /* margin-top: 30px; */
+  /* margin-bottom: 0; */
   font-size: 18px;
   line-height: 38px;
   color: #ffffff;
@@ -50,12 +54,83 @@
   justify-content: space-between;
 }
 .upper{
-  background-image: url("./img/group2/Image\ burger2.png");
-  width: 596px;
-  height: 192px;
+  background-image: url("./img/group2/burger2.png");
+  width: 85vh;
+  height: 28vh;
+  padding-left: 3vh;
+  border-radius: 2vh;
 }
 .lower{
-  background-image: url("./img/group2/Image\ burger3.png");
-  width: 596px;
-  height: 192px;
+  background-image: url("./img/group2/burger3.png");
+  width: 85vh;
+  height: 28vh;
+  padding-left: 3vh;
+  border-radius: 2vh;
+  /* width: 596px; */
+  /* height: 192px; */
+}
+}
+
+@media(orientation: portrait){
+  
+.section2{
+  /* width: 98vw; */
+  /* height: 95vh; */
+  /* padding-left: 5vh; */
+  padding-top:  3vh;
+  /* padding-right: 5vh; */
+  /* padding-bottom:  80px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.single{
+  background-image: url("./img/group2/Burger1.png");
+  /* width: 40%; */
+  /* height: 60vh; */
+  padding-left: 3vh;
+  border-radius: 2vh;
+}
+.single>h5, .lower>h5, .upper>h5{
+  /* margin-left: 24px; */
+  /* margin-top: 10px; */
+  font-size: 25px;
+  line-height: 38px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+}
+.single>p, .lower>p, .upper>p{
+  /* margin-left: 24px; */
+  /* margin-top: 30px; */
+  /* margin-bottom: 0; */
+  font-size: 18px;
+  line-height: 38px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Bebas Neue";
+}
+.double{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.upper{
+  background-image: url("./img/group2/burger2.png");
+  /* width: 85vh; */
+  height: 25vh;
+  padding-left: 3vh;
+  margin-top: 1vh;
+  border-radius: 2vh;
+}
+.lower{
+  background-image: url("./img/group2/burger3.png");
+  /* width: 85vh;
+  height: 28vh; */
+  padding-left: 3vh;
+  margin-top: 1vh;
+  border-radius: 2vh;
+  /* width: 596px; */
+  /* height: 192px; */
+}
 }

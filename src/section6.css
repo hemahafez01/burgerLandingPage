@@ -9,13 +9,15 @@
   src: url('./font/BebasNeue-Regular.ttf');
 }
 
+@media(orientation: landscape){
+
 .section6{
-  width: 1325px;
-  height: 520px;
-  margin-top: 0px;
-  margin-right: 57px;
-  margin-bottom: 00px;
-  margin-left: 57px;
+  width: 98vw;
+  height: 95vh;
+  /* margin-top: 0px; */
+  /* margin-right: 57px; */
+  /* margin-bottom: 00px; */
+  /* margin-left: 57px; */
   /* padding: 16px 16px 16px 63px; */
   background-image: url("./img/group6/sec6bckg.png");
   background-repeat: no-repeat;
@@ -27,15 +29,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 80px;
-  margin-left: 40px;
+  margin-top: 10vh;
+  margin-left: 5vh;
 }
 .left>p{
   color: #fff;
-  width: 450px;
+  width: 35vw;
 }
 .right6{
-  width: 315px;
+  width: 25vw;
   margin-right: 126px;
   display: flex;
   flex-direction: column;
@@ -78,3 +80,81 @@ width: 30px;
 height: 30px;
 padding: 5px;
 }
+}
+
+@media(orientation: portrait){
+
+  .section6{
+    /* width: 98vw; */
+    /* height: 95vh; */
+    /* margin-top: 0px; */
+    /* margin-right: 57px; */
+    /* margin-bottom: 00px; */
+    /* margin-left: 57px; */
+    /* padding: 16px 16px 16px 63px; */
+    background-image: url("./img/group6/sec6bckg.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30vh;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5vh;
+    margin-top: 5vh;
+  }
+  .left>img{
+    width: 80%;
+  }
+  .left>p{
+    color: #fff;
+    /* width: 35vw; */
+  }
+  .right6{
+    /* width: 25vw; */
+    /* margin-right: 126px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .right6>div:nth-child(1){
+    /* margin-top: 150px; */
+  }
+  .right6>div{
+    margin-top: 15px;
+  }
+  .right6>div>p, .right>div>img{
+  display: inline;
+  }
+  
+  .right6>div>img{
+    /* padding-right: 30px; */
+  }
+  .right6>div>p{
+    color: #fff;
+    font-weight: 400;
+  }
+  .hash{
+    margin-right: 30px;
+    margin-left: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .hash>p{
+    color: #fff;
+  }
+  .hash>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .hash>div>img{
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  }
+  }

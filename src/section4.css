@@ -9,19 +9,24 @@
   src: url('./font/BebasNeue-Regular.ttf');
 }
 
+@media(orientation: landscape){
+
 .section4{
-  width: 1294px;
-  height: 440px;
-  margin-top: 125px;
-  margin-left: auto;
-  margin-right: auto;
+  /* width: 98vw; */
+  /* height: 95vh; */
+  margin-top: 20vh;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   /* margin-bottom: 200px; */
-  padding: 16px 16px 16px 63px;
+  /* padding: 16px 16px 16px 63px; */
   filter: drop-shadow(18.656px 24.758px 21.5px rgba(0,0,0,0.17));
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+}
+.left4{
+  width: 47%;
 }
 .left4>h5{
   margin: 0;
@@ -52,17 +57,94 @@
   text-justify: inter-word;
 }
 .scroll{
-  width: 71px;
+  width: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .scroll>div{
-  width: 17px;
-  height: 17px;
+  width: 3vh;
+  height: 3vh;
   border-radius: 50%;
   background-color: #dcdcdc;
 }
 .scroll>div:hover{
   background-color: #ffc045;
+}
+}
+
+@media(orientation: portrait){
+  .section4{
+    /* margin: auto; */
+    /* width: 80vw; */
+    /* height: 95vh; */
+    margin-top: 5vh;
+    margin-left: 5vh;
+    /* margin-right: auto; */
+    /* margin-bottom: 200px; */
+    /* padding: 0px 0px 0px 63px; */
+    /* filter: drop-shadow(18.656px 24.758px 21.5px rgba(0,0,0,0.17)); */
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left4{
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left4>h5{
+    margin: auto;
+    font-size: 29px;
+    letter-spacing: 2px;
+    line-height: 46px;
+    color: #3d3d3d;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+  }
+  .left4>h3{
+    margin: auto;
+    font-size: 42px;
+    line-height: 46px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    text-align: center;
+  }
+  .left4>p{
+    width: 90%;
+    /* height: 173px; */
+    font-size: 21px;
+    line-height: 33px;
+    color: #3d3d3d;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    text-justify: inter-word;
+  }
+  .scroll{
+    width: 10vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .scroll>div{
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    background-color: #dcdcdc;
+  }
+  .scroll>div:hover{
+    background-color: #ffc045;
+  } 
+  .right4>img{
+    width: 100%;
+    margin: 0;
+  }
 }
